@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.information a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.information a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: rgb(66, 66, 66);
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+}
+
+.fixing-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
